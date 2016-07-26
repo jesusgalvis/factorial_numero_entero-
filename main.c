@@ -8,13 +8,13 @@ int main(int argc, char *argv[]) {
 	fact = 1;
 	
 	printf ("Introduce Un numero Para Calcular su Factorial: ");
-	scanf  ("%i",&x);
+	scanf  ("%d",&x);
 	
 	for (i = 1 ; i <= x ; i++){
 		fact = fact * i;
 	}
 	
-	printf ("El Factorial de %i es %i.\n",x,fact);
+	printf ("El Factorial de %d es %d.\n",x,fact);
 	
 	return 0;
 
